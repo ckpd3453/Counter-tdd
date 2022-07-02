@@ -1,7 +1,7 @@
 import TestAxios from "./components/testAxios/TestAxios";
 
 function App() {
-  return <TestAxios url='https://github.com/ckpd3453/ckpd3453-CabInvoiceGenerator-TDD'></TestAxios>
+  return <TestAxios url='https://api.github.com/users/ckpd3453'></TestAxios>
 }
 
 export default App;

@@ -7,6 +7,7 @@ const [data, setData] = React.useState();
 
 const fetchData = async () => {
     const response = await axios.get(url);
+    console.log(response);
     setData(response.data.login);
 }
 
